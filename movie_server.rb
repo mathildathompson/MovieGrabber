@@ -1,6 +1,6 @@
 require 'sinatra'
 
-require_relative 'movie'
+require_relative 'movies'
 
 get '/' do
   # Just have a nice welcome page
