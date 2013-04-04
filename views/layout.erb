@@ -1,0 +1,23 @@
+<html>
+<head>
+   <title>Movie Grabber App</title>
+</head>
+   
+<body>
+
+    <h1>Movie Database Search</h1>
+
+    <div id="menu" style="float:left;width:170px; border-radius: 20px; height: 400px">
+
+	<form action="/film" method="POST">
+     	<label for="title">Title</label>
+        <input type="text" name="title"/>
+        <input type="submit"/>
+
+       </form>
+     </div>
+    <div id="content">
+       <%=yield%>
+    </div>
+</body>
+</html>
