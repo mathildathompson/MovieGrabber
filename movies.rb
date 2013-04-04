@@ -14,7 +14,7 @@ class Movie
     m = Movie.new
     m.title = movie_info["Title"]
     m.year = movie_info["Year"]
-    m.rating = movie_info["Rating"]
+    m.rating = movie_info.to_s["Rating"]
     m.genre = movie_info["Genre"]
     m.director = movie_info["Director"]
     m.actors = movie_info["Actors"]

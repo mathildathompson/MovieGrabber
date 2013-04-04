@@ -9,7 +9,7 @@ require_relative 'movies'
 
 before '/' do
 	unless params[:password] == "coolbananas"
-	flash[:notice] = "Sorry the password is wrong, follow the IMDB twitter account if you are interested in joining"
+		flash[:notice] = "Sorry, wrong password"
     redirect '/login'
     end
    end
@@ -27,8 +27,6 @@ get '/' do
 
 	erb :index
 end
-
-
 
 post '/film' do
 	
