@@ -1,3 +1,34 @@
 h1 {font-family: times;
-    size: 22px;
-    color: darkblue;}
+    size: 100px;
+    color: darkblue;
+    margin-left: 170px;
+    }
+
+label {
+	margin-left: 100px;
+	font-family: times;
+	font-color: purple;
+      }
+
+
+ul {font: times;
+    font-color:red;
+    float:left;
+    }
+
+form {font-color: red;}
+
+.boxed {
+	float:left;
+    width:100px;
+    border-radius:
+    20px purple;
+    height: 400px;
+    color: purple;
+      }
+
+body {
+  background-image: url("http://t.wallpaperweb.org/wallpaper/buildings/1680x1050/New_York_Black_And_White_1680X1050_Wallpaper.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+     }
